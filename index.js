@@ -5,49 +5,49 @@
     d. Challenge - Print the numbers 50 - 20 in descending order, but only if the numbers are multiples of 3. (Your code should work even if you replace 50 or 20 with other numbers). */
 
 //a//
-//for (let a = 0; a < 21; a++) {
-  //console.log(a);
-//}
+for (let i = 0; i <= 21; i++) {
+  console.log(i);
+}
 
 //b//
-//for (let b = 3; b < 30; b += 3) {
+for (let b = 3; b < 30; b += 3) {
      //every three
-  //console.log(b);
-//}
+   console.log(b);
+}
 
 //c//
 //12, 10, 8, 6, 4, 2, 0, -2, -4, -6 
-
-//for(let i=12;i > -14;i-=2) {
-    //console.log(i);
-//}
+for (let i = 12; i > -14; i -= 2) {
+    console.log(i);
+}
 
 //Exercise #2: 
 //Initialize two variables to hold the string “LaunchCode” and the array [1, 5, ‘LC101’, ‘blue’, 42].
-
-let name = "LaunchCode";
-console.log(name);
-
+let str = "LaunchCode";
 let arr = [1, 5, 'LC101', 'Blue', 42]
-console.log(m);
 
-
+for (let i = 0; i < arr.length; i++){
+  console.log(arr[i]);
+}
 
 //Construct ``for`` loops to accomplish the following tasks:
-  //a. Print each element of the array to a new line.
-  //b. Print each character of the string - in reverse order - to a new line. */ 
+//a. Print each element of the array to a new line.
+//b. Print each character of the string - in reverse order - to a new line. */  
 
-for (let i = 0; i < name.length; i++) {
-  console.log(i.reverse);
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+for (let i = str.length -1 ; i >= 0; i--) {
+  console.log(str);
 }
 
-function reverseArray(arr) {
-  var newArray = [];
-  for (var i = arr.length - 1; i >= 0; i--) {
-    newArray.push(arr[i]);
-  }
-  return newArray;
-}
+// function reverseArray(arr) {
+//   var newArray = [];
+//   for (var i = arr.length - 1; i >= 0; i--) {
+//     newArray.push(arr[i]);
+//   }
+//   return newArray;
+// }
 
 
 /*Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
