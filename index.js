@@ -37,21 +37,35 @@ for (let i = 0; i < arr.length; i++){
 for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);
 }
-for (let i = str.length -1 ; i >= 0; i--) {
-  console.log(str);
-}
+
 
 // function reverseArray(arr) {
-//   var newArray = [];
-//   for (var i = arr.length - 1; i >= 0; i--) {
-//     newArray.push(arr[i]);
+//  var newArray = [];
+//  for (var i = arr.length - 1; i >= 0; i--) {
+//   newArray.push(arr[i]);
 //   }
-//   return newArray;
+//    return newArray;
 // }
+
+// reverseArray;
 
 
 /*Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
   a. One array contains the even numbers, and the other holds the odds.
   b. Print the arrays to confirm the results. */
+let arr2 = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] 
+let even = [];
+let odd = [];
 
-  
+for (let i = 0; i < arr2.length; i++) {
+  if (arr2[i] % 2 === 0 ){
+  console.log(arr2[i]);
+  }
+}  
+
+for (let i = 0; i < arr2.length; i++) {
+  if (arr2[i] % 2 != 0){
+  console.log(arr2[i]+ "\n");
+  }
+}  
+
